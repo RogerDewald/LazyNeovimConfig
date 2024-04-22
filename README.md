@@ -18,8 +18,6 @@ install ripgrep from https://github.com/BurntSushi/ripgrep
 
 install neovim from https://neovim.io
 
-install packer.nvim from https://github.com/wbthomason/packer.nvim
-
 install nvm from https://github.com/nvm-sh/nvm
 
 nvm install 18
