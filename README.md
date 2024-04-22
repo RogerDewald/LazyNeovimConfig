@@ -12,7 +12,7 @@ sudo apt install git
 
 sudo apt install npm
 
-install go from go.dev
+install go from https://go.dev/dll/
 
 install ripgrep from https://github.com/BurntSushi/ripgrep
 
