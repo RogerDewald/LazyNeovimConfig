@@ -10,6 +10,8 @@ sudo apt install g++
 
 sudo apt install git
 
+sudo apt install unzip
+
 sudo apt install npm
 
 install go from https://go.dev/dl/
