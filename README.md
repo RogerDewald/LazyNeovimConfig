@@ -12,11 +12,11 @@ sudo apt install git
 
 sudo apt install npm
 
-install go from https://go.dev/dll/
+install go from https://go.dev/dl/
 
 install ripgrep from https://github.com/BurntSushi/ripgrep
 
-install neovim from neovim.io
+install neovim from https://neovim.io
 
 install packer.nvim from https://github.com/wbthomason/packer.nvim
 
