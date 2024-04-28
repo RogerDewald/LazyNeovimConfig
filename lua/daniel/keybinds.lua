@@ -24,6 +24,7 @@ vim.keymap.set("n", "<leader>t", function()
 end)
 
 vim.keymap.set("n", "<leader>rc", function()
+    vim.opt.splitright = true
     vim.api.nvim_command('vsplit')
     vim.api.nvim_command('terminal g++ %; ./a.out ; rm a.out')
     vim.api.nvim_command("vertical resize -30")
@@ -31,6 +32,7 @@ vim.keymap.set("n", "<leader>rc", function()
 end)
 
 vim.keymap.set("n", "<leader>rp", function()
+    vim.opt.splitright = true
     vim.api.nvim_command('vsplit')
     vim.api.nvim_command('terminal python3 %')
     vim.api.nvim_command("vertical resize -30")
