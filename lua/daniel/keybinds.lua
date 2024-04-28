@@ -12,6 +12,8 @@ vim.keymap.set("x", "<leader>p", [["_dP]])
 
 vim.keymap.set({"n", "v"}, "<leader>d", [["_d]])
 
+vim.keymap.set("n", "<leader>fd", vim.lsp.buf.format)
+
 --My own keybinds for terminal and running code
 vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>')
 
