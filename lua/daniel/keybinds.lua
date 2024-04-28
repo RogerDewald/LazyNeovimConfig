@@ -10,7 +10,7 @@ vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
 vim.keymap.set("x", "<leader>p", [["_dP]])
 
-vim.keymap.set({"n", "v"}, "<leader>d", [["_d]])
+vim.keymap.set({ "n", "v" }, "<leader>d", [["_d]])
 
 vim.keymap.set("n", "<leader>fd", vim.lsp.buf.format)
 
@@ -42,12 +42,12 @@ vim.keymap.set("n", "<leader>rp", function()
 end)
 
 --My own keybinds for word substitution
-vim.keymap.set("n", "<leader>s",function()
+vim.keymap.set("n", "<leader>s", function()
     local number = vim.v.count
     if number == 0
-        then
-            vim.api.nvim_feedkeys(":%s/", "n", true)
-        else
-            vim.api.nvim_feedkeys(":.,+" .. number .. " s/", "n", true)
+    then
+        vim.api.nvim_feedkeys(":%s/", "n", true)
+    else
+        vim.api.nvim_feedkeys(":.,+" .. number .. " s/", "n", true)
     end
 end)
