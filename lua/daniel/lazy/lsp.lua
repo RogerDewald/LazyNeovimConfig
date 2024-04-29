@@ -93,7 +93,7 @@ return {
             }),
             formatting = {
                 format = lspkind.cmp_format {
-                    with_text = true,
+                    with_text = false,
                     menu = {
                         buffer = "[buf]",
                         nvim_lsp = "[LSP]",
@@ -102,6 +102,10 @@ return {
                         luasnip = "[snip]",
                     },
                 },
+            },
+            experimental = {
+                native_menu = false,
+                ghost_text = true,
             },
         })
 
