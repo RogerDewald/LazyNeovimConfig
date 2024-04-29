@@ -1,4 +1,4 @@
---ThePrimeagen's remap
+--ThePrimeagen's remap, that's slightly altered
 vim.g.mapleader = " "
 
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
@@ -44,6 +44,7 @@ end)
 --My own keybinds for word substitution
 vim.keymap.set("n", "<leader>s", function()
     local number = vim.v.count
+
     if number == 0
     then
         vim.api.nvim_feedkeys(":%s/", "n", true)
