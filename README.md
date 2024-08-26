@@ -1,3 +1,5 @@
+This REPO is deprecated, the up-to-date config is in my .dotfiles REPO
+
 if you already have an nvim config, you can wipe it with these commands: mv ~/.config/nvim{,.bak} mv ~/.local/share/nvim{,.bak} mv ~/.local/state/nvim{,.bak} mv ~/.cache/nvim{,.bak}
 
 sudo apt update
